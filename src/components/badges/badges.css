@@ -1,0 +1,7 @@
+.badges {
+    background-color: var(--dark-blue-dark-mode-elements);
+}
+
+.badges.light-theme {
+    background-color: var(--white-dark-mode-text-and-light-mode-elements);
+}

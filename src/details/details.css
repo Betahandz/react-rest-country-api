@@ -1,0 +1,21 @@
+.details {
+
+}
+
+.back {
+    background-color: var(--dark-blue-dark-mode-elements);
+}
+
+.back.light-theme {
+    background-color: var(--white-dark-mode-text-and-light-mode-elements)
+}
+
+@media screen and (width > 1200px) {
+    /* .details {
+        width: 50%;
+    } */
+
+    .detail-board {
+        width: 100%;
+    }
+}

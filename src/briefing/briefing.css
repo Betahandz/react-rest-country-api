@@ -1,0 +1,18 @@
+.detail-briefing {
+    width: 100%;
+}
+
+.detail-info {
+    width: 100%;
+}
+
+@media screen and (width > 1200px) {
+    .detail-briefing {
+        width: 60%;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+}

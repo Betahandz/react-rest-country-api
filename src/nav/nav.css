@@ -1,0 +1,7 @@
+.nav {
+    background-color: var(--dark-blue-dark-mode-elements);
+}
+
+.nav.light-theme {
+    background-color: var(--white-dark-mode-text-and-light-mode-elements);
+}

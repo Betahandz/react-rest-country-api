@@ -1,0 +1,14 @@
+.display-country {
+    display: grid;
+    gap: 45px;
+    transform-style: preserve-3d;
+    perspective: -20px;
+}
+
+
+@media screen and (width > 1200px) {
+    .display-country {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 55px;
+    }
+}

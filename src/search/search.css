@@ -1,0 +1,39 @@
+.search {
+
+}
+
+.search-input,
+.search-filter {
+    background-color: var(--dark-blue-dark-mode-elements);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.search-input.light-theme,
+.search-filter.light-theme {
+    background-color: var(--white-dark-mode-text-and-light-mode-elements);
+    color: black;
+}
+
+.search-input::placeholder {
+    color: white;
+}
+
+.search-input.light-theme::placeholder {
+    color: black;
+}
+
+.search-option {
+    border: none;
+}
+
+.search-option:hover {
+    background-color: red;
+}
+
+@media screen and (width > 1200px) {
+    .search-pack {
+        width: 30%;
+    }
+}
